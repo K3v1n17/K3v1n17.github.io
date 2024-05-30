@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Romanesco&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <style>
+
+        footer 
+        {
+            display: flex;
+            background-color:  #384001;
+            height: 97px;
+            justify-content: space-between;
+
+
+        }
+
+        footer ul 
+        {
+            display: flex;
+            padding-inline-start: 70px;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        footer ul li {
+
+            list-style: none;
+            margin-right: 80px;
+            color: #A3A656;
+        }
+        nav {
+            display: flexbox;
+            background-color: #A3A656;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            padding-inline-start: 70px;
+            justify-content: space-between;
+        }
+
+        nav ul {
+            padding-inline-start: 0px;
+            display: flex;
+
+        }
+
+        nav ul li {
+            margin-right: 20px;
+            list-style: none;
+            display: inline-block;
+            text-transform: uppercase;
+
+
+        }
+
+        nav div img {
+            padding-right: 10px;
+
+
+
+        }
+
+        nav ul li:hover {
+            color: #FFFF00
+        }
+
+        footer ul li:hover 
+        {
+
+            color: #FFFF00
+        }
+
+        a:hover {
+
+            background-color: #384001;
+
+        }
+
+
+         main li {
+
+            padding-bottom: 6px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+         }
+         main ul 
+         {
+
+            padding-top: 12px;
+         }
+        #background {
+            background-image: url('imagenes/main.png');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            padding: 15em 20em 13em 9em;
+            
+        }
+
+        .titulo_texto {
+            font-family: 'Romanesco', sans-serif; /* Usando la fuente Romanesco y una fuente de respaldo sans-serif */
+            font-weight: normal; /* Para la variante Regular */
+            font-size: 96px;
+            margin: 0px;
+            padding-bottom: 20px;
+    
+        }
+        .titulo2 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 32px;
+            margin: 0px;
+        } 
+
+        .menu {
+            height: 16px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 400; /* Regular */
+            font-size: 16px;
+            text-transform: uppercase; /* Convertir a mayúsculas */
+        }
+        
+
+        #reserva_menu {
+            height: 100px;
+            background-color: #F2F6F6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+
+        .caja_de_input {
+            height: 25px;
+
+        }
+
+        .card {
+            background: #ffffff;
+            padding-top: 100px;
+            padding-right: 134px;
+            text-align: center;
+            width: 500px;
+            height: 500px;
+            border-radius: 15px 15px 0px 0px;
+
+        }
+
+        .card .imagen-superheroe img {
+            width: 100%;
+            height: 100%;
+
+        }
+
+
+        .formato {
+
+            border: #A3A656 solid 1px;
+            border-radius: 15px 15px 0px 0px;
+            background-color: #A3A656;
+            color: #ffffff;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .add-button {
+            display: flex;
+            height: 35px;
+            width: 120px;
+            border-radius: 35px;
+            background-color: #A3A656;
+
+
+
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        #add-button2 {
+            display: flex;
+            text-align: center;
+          
+            background-color: #A3A656;
+            border-radius: 35px;
+            width: 280px;
+            height: 50px;
+            color: #ffffff;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .add-button a {
+            text-decoration: none;
+
+        }
+
+        .center {
+            display: flex;
+            justify-content: space-between;
+
+            align-items: center;
+            font-size: 28px;
+            /* Tamaño de fuente más pequeño */
+            font-weight: bold;
+            /* Texto en negrita */
+            padding-left: 18px;
+            border: 0px;
+         
+        }
+
+        .tamaño {
+
+            font-size: 14px;
+            /* Tamaño de fuente más pequeño */
+            font-weight: bold;
+            /* Texto en negrita */
+            color: white;
+            padding: 0px;
+            border: 0px
+        }
+
+        .tamaño2 {
+
+            font-size: 17px;
+            /* Tamaño de fuente más pequeño */
+            font-weight: bold;
+            /* Texto en negrita */
+            color: white;
+            padding: 0px;
+            border: 0px
+        }
+
+        .horizontal {
+            display: flex;
+            padding-inline-start: 134px;
+   
+
+
+        }
+
+        .div3 {
+
+            background-color: #F2F6F6;
+
+        }
+
+
+        .prueba {
+            display: flex;
+            align-items: center;
+
+        }
+
+        .formato_input {
+            /* configurar formato de letras */
+            border: none;
+            border-radius: 15px;
+            width: 300px;
+            height: 58px;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+
+        .formato_input2 {
+            border: none;
+            border-radius: 15px;
+            width: 200px;
+            height: 58px;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+
+        #Fondo_3parte {
+         
+            background-color: #F2F6F6;
+            height: 770px;
+
+
+
+        }
+
+        .centro {
+            /*establecer el tipo de letra */
+            display: flex;
+            justify-content: center;
+            padding-top: 35px;
+            padding-bottom: 80px;
+            font-family: 'Inter', sans-serif;
+
+        }
+
+        .coronas {
+            border: 10px solid #384001;
+            width: 233px;
+            height: 233px;
+            border-radius: 50%;
+            justify-content: center;
+            text-align: center;
+            align-content: center;
+            background-color: #ffffff;
+            padding: 1.4px;
+
+
+        }
+
+        .parte3 {
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="menu">Promociones</li>
+            <li class="menu"> Fotos </li>
+            <li class="menu"> Servicios</li>
+            <li class="menu"> Mapa</li>
+            <li class="menu">Contacto </li>
+        </ul>
+
+        <div class="prueba">
+            <div> <img src="./imagenes/user.png" alt=""> </div>
+            <div style="padding-right: 45px;"> Mi cuenta </div>
+            <div style="padding-right: 12px;">ES</div>
+            <div> <img src="./imagenes/flag.png" alt=""> </div>
+            <div style="padding-bottom: 8px;"> <img src="./imagenes/arrow.png" alt=""></div>
+        </div>
+    </nav>
+
+
+    <div id="background">
+        <h1 class="titulo_texto">SPA-Jodos</h1>
+
+        <h2 class="titulo2" > Regálate un momento de paz <br>
+             y consiente a tu piel 
+            en el mejor lugar</h2>
+    </div>
+    <div id="reserva_menu">
+        <label class="menu">RESERVA TU CITA: </label>
+        <input class="formato_input" type="text">
+        <label class="menu">CÓDIGO PROMOCIONAL:</label>
+        <input class="formato_input2" type="text" placeholder="CODIGO">
+
+    </div>
+    <main>
+
+        <div class="horizontal">
+            <div class="card">
+                <div class="formato">
+                    <h2 class="titulo2"> Masaje de pies</h2>
+                </div>
+                <div class="imagen-superheroe">
+                    <img src="./imagenes/pies.png" alt="">
+                </div>
+                <p style="margin-bottom: 0px;"> Esta es una descpricion de la opcion en cuestion .....</p>
+                <div class="center">
+                    <p style="font-family: 'Inter', sans-serif; font-weight: 600;"> $65</p>
+                    <div class="add-button">
+                        <a class="tamaño"> RESERVAR </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="formato">
+                    <h2 class="titulo2"> Masaje relajante</h2>
+                </div>
+
+                <div class="imagen-superheroe">
+                    <img src="./imagenes/relajante.png" alt="">
+                </div>
+                <p style="margin-bottom: 0px;"> Esta es una descpricion de la opcion en cuestion .....</p>
+
+                <div class="center">
+                    <p style="     font-family: 'Inter', sans-serif; font-weight: 600;">$60</p>
+                    <div class="add-button">
+                        <a class="tamaño"> RESERVAR </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="formato">
+                    <h2 class="titulo2"> Masaje con Bambú</h2>
+                </div>
+
+                <div class="imagen-superheroe">
+                    <img src="./imagenes/bambu.png" alt="">
+                </div>
+                <p style="margin-bottom: 0px;"> Esta es una descpricion de la opcion en cuestion .....</p>
+                <div class="center">
+                    <p style=" font-family: 'Inter', sans-serif; font-weight: 600; ">$58</p>
+                    <div class="add-button">
+                        <a class="tamaño"> RESERVAR </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="Fondo_3parte">
+            <h1 class="centro"> Haste socio y prueba nuestros beneficios </h1>
+
+
+
+            <div class="parte3">
+
+                <div>
+
+                    <div class="coronas">
+                        <img src="./imagenes/gold.png" alt="">
+                    </div>
+                    <h1 style="padding-left: 70px ;  font-family: 'Inter', sans-serif;">GOLD</h1>
+                    <div id="add-button2"> <a class="tamaño2"> VER CONDICIONES </a> </div>
+                    <ul style="padding-left: 80px;">
+                        <li >Gimnasio</li>
+                        <li>Piscina</li>
+                        <li >Todos los tratamientos</li>
+                    </ul>
+
+
+                </div>
+
+
+                <div>
+
+                    <div class="coronas">
+                        <img src="./imagenes/premium.png" alt="">
+                    </div>
+                    <h1 style="padding-left: 50px; font-family: 'Inter', sans-serif; ">PREMIUM</h1>
+                    <div id="add-button2"> <a class="tamaño2"> VER CONDICCIONES </a> </div>
+                    <ul style="padding-left: 80px;">
+                        <li >Gimnasio</li>
+                        <li >Todos los tratamientos</li>
+                    </ul>
+
+
+                </div>
+
+                <div>
+
+                    <div class="coronas">
+                        <img src="./imagenes/plate.png" alt="">
+                    </div>
+                    <h1 style="text-align: center; padding-right: 25px;  font-family: 'Inter', sans-serif;">PLATE</h1>
+                    <div id="add-button2"> <a class="tamaño2"> VER CONDICIONES</a> </div>
+                    <ul style="padding-left: 80px;">
+                        <li ">Tratamientos faciales</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </main>
+
+<Footer>
+
+        <ul>
+            <li id="menu">POLITICAS DE COOKIES</li>
+            <li id="menu"> AVISO lEGAL </li>
+            <li id="menu"> PROTECCIÓN DE DATOS</li>
+            <li id="menu"> MAPA DEL SITIO</li>
+
+        </ul>
+       
+
+          <div style="display: flex; align-items: center; margin-right: 0px;" >    
+
+
+             <div style="color: #A3A656; margin-right: 20px;">SIGUENOS EN </div>
+
+              <div style="margin-right: 40px;">
+                  <img src="./imagenes/rs_facebook.png" alt="">
+                </div>
+                
+                <div style="margin-right: 40px;">
+                    <img src="./imagenes/rs_twiter.png" alt="">
+                </div>
+                
+                <div style="margin-right: 30px;">
+                    <img src="./imagenes/rs_youtube.png" alt="">
+                </div>
+                
+            </div>
+</Footer>
+
+</body>
+
+</html>
